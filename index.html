@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamal Ademola | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="navbar">
+    <nav>
+        <a href="index.html" class="logo">Jamal Ademola</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active" data-testid="nav-home">Home</a></li>
+            <li><a href="about.html" data-testid="nav-about">About Me</a></li>
+            <li><a href="contact.html" data-testid="nav-contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="card-container" data-testid="test-home-page">
+    <section class="profile-card">
+        <img
+                src="images/me.jpg"
+                alt="Portrait of Jamal Ademola"
+                class="profile-img"
+        />
+        <h1 data-testid="test-name">Jamal Ademola</h1>
+        <h2 data-testid="test-role" style="margin-bottom: 10px">Full-Stack & Mobile Developer</h2>
+        <p data-testid="test-bio">
+            Passionate about building scalable and visually appealing applications
+            using Django, React Native, and JavaScript. I enjoy solving real-world
+            problems through clean, maintainable code.
+        </p>
+
+        <div class="card-buttons">
+            <a href="about.html" class="btn primary-btn">About Me</a>
+            <a href="contact.html" class="btn secondary-btn">Contact Me</a>
+        </div>
+
+        <nav aria-label="Social links">
+            <ul data-testid="test-user-social-links" class="social-links">
+                <li>
+                    <img src="images/github.png" alt="GitHub" class="nav-img" />
+                    <a
+                            href="https://github.com/Jamal-09"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-github"
+                    >GitHub</a
+                    >
+                </li>
+                <li>
+                    <img src="images/whatsapp.png" alt="WhatsApp" class="nav-img" />
+                    <a
+                            href="https://wa.me/8148647795"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-whatsapp"
+                    >WhatsApp</a
+                    >
+                </li>
+                <li>
+                    <img src="images/linkedin.png" alt="LinkedIn" class="nav-img" />
+                    <a
+                            href="https://linkedin.com/in/jamal-ademola-9b623236b"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-linkedin"
+                    >LinkedIn</a
+                    >
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hobbies">
+            <div class="hobbies-header">
+                <span class="line-break"></span>
+                <h3>Hobbies</h3>
+                <span class="line-break"></span>
+            </div>
+            <ul data-testid="test-user-hobbies">
+                <li>Coding</li>
+                <li>Music</li>
+                <li>Gaming</li>
+            </ul>
+        </section>
+
+        <section class="dislikes">
+            <div class="hobbies-header">
+                <span class="line-break"></span>
+                <h3>Dislikes</h3>
+                <span class="line-break"></span>
+            </div>
+            <ul data-testid="test-user-dislikes">
+                <li>Procrastination</li>
+                <li>Messy code</li>
+                <li>Unfinished coffee</li>
+            </ul>
+        </section>
+
+        <p class="timestamp">
+            Current time: <span id="currentTime"></span>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Jamal Ademola | Built with ❤️ using HTML, CSS & JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
