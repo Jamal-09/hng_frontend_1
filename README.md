@@ -20,13 +20,13 @@ A simple, accessible, and responsive profile card built with **HTML**, **CSS**, 
 
 ## 🔗 Live Demo
 
-[https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)
+[[https://sensational-donut-28a416.netlify.app/](https://sensational-donut-28a416.netlify.app/)]
 
 ## 📁 How to Run
 
 ```bash
 git clone https://github.com/Jamal-09/hng_frontend_1.git
-cd hng_frontend_0
+cd hng_frontend_1
 open index.html
 ```
 
